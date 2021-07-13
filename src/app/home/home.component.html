@@ -1,0 +1,544 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!--all above is necessary for bootstrap to function in this snippet-->
+
+<!--imp for cards rottation -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+
+<!------ ends for cards rotation  ---------->
+
+<!--links for card 3 -->
+<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="home.component.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap"
+    rel="stylesheet">
+<!-- link for card named 3 ends jhere-->
+
+<!--code for circukar link-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<!-- end for circular card-->
+<!--gallery slider card starts -->
+
+
+<div class="carousel slide" id="slider" data-ride="carousel">
+    <ol class="carousel-indicators">
+        
+        
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <a><img src={{image}}></a>
+            <div class="carousel-caption">
+                <h4>Welcome</h4>
+                <p>Travel! Enjoy!</p>
+            </div>
+        </div>
+
+        
+        
+
+    </div>
+    <a class="carousel-control-prev" role="button" data-slide="prev" (click)="prev()">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" role="button" data-slide="next" (click)="next()">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+<br>
+<br>
+<br>
+
+<!--gallery slider ends here-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- code for cards flll cardss-->
+
+<main>
+
+
+    
+    <!--code for circuler card-->
+    <div class="containe">
+        <!--div class="container">
+        <h2 style="color: yellowgreen;font-size:30px">About Us</h2>
+        code for adding ne cards plati
+        <h3 style="color: yellowgreen;font-size:20px" >
+            SSF is a global coatings company focused on providing customers with innovative, colorful and sustainable solutions.
+             With more than Decades of experience in the coatings industry,
+             SSF continues to find ways to serve more than 100,000 customers with the finest coatings, application systems and technology.
+        </h3>
+        </div-->
+        <br>
+        <br>
+        <div class="cols">
+                  
+            
+                  <div class="col" ontouchstart="this.classList.toggle('hover');">
+                      <div class="container">
+                          <div class="front" style="background-image: url(https://media.istockphoto.com/photos/powder-coating-process-of-metal-products-picture-id1299308121?k=6&m=1299308121&s=612x612&w=0&h=N62aUTKFpqvDZ52j7IPrRC7agyw9aim97gQpbKosols=)">
+                              <div class="inner">
+                                  <p>Experience</p>
+                    
+                              </div>
+                          </div>
+                          <div class="back">
+                              <div class="inner">
+                                  <p style="font-size:80%"><i>We have decades of knowledge in the construction field and our aim is to deliver the best service to your project.</i></p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col" ontouchstart="this.classList.toggle('hover');">
+                      <div class="container">
+                          <div class="front" style="background-image: url(https://media.istockphoto.com/photos/businessmen-choose-to-rating-score-happy-icons-customer-service-and-picture-id1139674909?k=6&m=1139674909&s=612x612&w=0&h=SdAiyKiSHUbLhORuCXl3mzaGOuNR072slTl6as4-8Xw=)">
+                              <div class="inner">
+                                  <p>Customer Satisfaction</p>
+                              </div>
+                          </div>
+                          <div class="back">
+                              <div class="inner">
+                                  <p ><i style="font-size: 80%"> At SSF we always listen to our customer’s needs and expectations and will achieve solutions to problem jobs and enable us to go above and beyond what is expected..</i></p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col" ontouchstart="this.classList.toggle('hover');">
+                    <div class="container">
+                        <div class="front" style="background-image: url(https://media.istockphoto.com/photos/businessman-magical-touch-concept-univercity-diploma-picture-id653884906?k=6&m=653884906&s=612x612&w=0&h=cMAoVd2Waij-RA7_X4JhTlv3lM6feorXG1xnUmp73Vo=)">
+                            <div class="inner">
+                                <p>Certified company</p>
+                            </div>
+                        </div>
+                        <div class="back">
+                            <div class="inner">
+                                <p ><i style="font-size:80%">Over the years we have become certified and credited by many suppliers including Akzo Nobel and Peninsula to name a few.
+                                
+                                </i></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 
+                  
+                  <div class="col" ontouchstart="this.classList.toggle('hover');">
+                      <div class="container">
+                          <div class="front" style="background-image: url(https://media.istockphoto.com/vectors/check-emblemtype-right-vector-emblem-design-vector-id684522426?k=6&m=684522426&s=612x612&w=0&h=AZHmVA0gSOTMXUNE0tE69rVgpZ1dW62bYFVcQUHYmao=)">
+                              <div class="inner">
+                                  <p>Your 1st choice in the region</p>
+                    
+                              </div>
+                          </div>
+                          <div class="back">
+                              <div class="inner">
+                                  <p><i style="font-size: 80%;">At SSH,we aim to offer the best service around providing good quality powder coating which with our competitive rates of cost should make us your first choice for all your powder coating needs..
+                                      </i>
+                                  </p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+       </div>
+
+
+     
+    
+
+
+    
+
+
+
+
+
+
+
+
+    <!--code for 4 acrds popup hiver card ,name=testing-->
+    <div id="cards_landscape_wrap-2">
+   
+        
+        <div class="container">
+            <h3 class="w3-center" style="color: blue;">Specialities</h3>
+            <p><i style="font-size: 100%;">Our experience and type of plant means we can offer outstanding service to particular industries that would normally find it difficult to source a coatings applicator.  
+                Our pre-treatment process, large spray booth and 8 metre batch ovens mean we can handle large and structural fabrications.  Long extrusions, poles,
+                 shutters and balustrades are easily accommodated.  Not only can we undertake the coating of these items but we can collect and deliver them if required.</i></p>  
+            <br>
+
+             
+            
+          
+            <!--to remove gey shades over image remove "w3-grayscale" from class-->
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-3 w3-grayscale" >
+                    <a href="">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                
+                                <div class="image-box">
+                                    <img src="https://thumbs.dreamstime.com/b/powder-coating-metal-parts-woman-protective-suit-sprays-powder-paint-gun-metal-products-powder-coating-112950733.jpg"
+                                        alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6>Architectural Powder Coating</h6>
+                                    <p>We offer many various types of powder coating including Architectural coatings this includes our 3 coat powder system</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-2 col-lg-3 w3-grayscale">
+                    <a href="">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="https://media.istockphoto.com/photos/powder-coating-process-of-metal-products-picture-id1299307574?k=6&m=1299307574&s=612x612&w=0&h=6r7WKnGciJCUsALs0wa4YcNeGow9xxvbJE-v32IDE-E="
+                                        alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6> Three coat powder system</h6>
+                                    <p>Our 3 coat systems enables items to have a protective coating that prevents corrosion whilst giving a smooth finish.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 w3-grayscale">
+                    <a href="">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="https://media.istockphoto.com/photos/shot-blasting-machine-for-processing-of-metal-plates-and-profiles-picture-id475580362?k=6&m=475580362&s=612x612&w=0&h=wQ9axY_-lcvq5lSTFpGOHP05ZLr9ambyE_9UtwaE_sI="
+                                        alt="" />
+                                </div>
+
+                                <div class="text-container">
+                                    <h6>Shot Blasting Equipment</h6>
+                                    <p>We have a large blasting facility that can strip paint of items as well as provide a good clean surface to powder coat on to</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 w3-grayscale">
+                    <a href="">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="https://c4.wallpaperflare.com/wallpaper/597/160/849/colorful-stripes-rainbow-vertical-wallpaper-preview.jpg"
+                                        alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6>RAL, BS & Special Shades</h6>
+                                    <p>We are able to powder coat to many different specifications and colours to cater for all your needs and orders.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   
+
+
+    <!-- code ends here ,name=cardhoverpop-->
+    <!--code for colour pallets-->
+<!-- Promo Section - "We know design" -->
+<div class="container" style="padding:100px 16px">
+    <div class="w3-row-padding ">
+      <div class="w3-col m6">
+        <h3>Choose Your Colour</h3>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod<br>tempor incididunt ut labore et dolore.</p>
+        <br>
+        <p><a href="#https://www.ssf-group.co.uk/powder-coating/colour-chart.html" class="w3-button w3-black"><i class="fa fa-th"> </i> View our Powder Colour Chart</a></p>
+      </div>
+      <div class="w3-col m6">
+        <img class="w3-image w3-round-large" src="https://images.unsplash.com/photo-1502691876148-a84978e59af8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mzl8fGNvbG91cnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="Buildings" width="700" height="394">
+      </div>
+    </div>
+  </div>
+    <!--below div and section comes from id='team',or card backfrnt rotae-->
+    <!-- Team Section -->
+<div class="container" style="padding:128px 16px" id="team">
+    <h3 class="w3-center" style="color:blue;">Testing Facilities</h3>
+    <br>
+
+    <p align="right"> <i style="font-size: 100%;"> " We provide a fully manual quality testing procedure as this is more reliable than machine-based testing. 
+        This has been designed to complement the powder coating process by testing the thickness and adhesion of the powder to the finished product.
+         This is to ensure that the powder coating process has been completed successfully in accordance with our strict quality procedure.Our new powder coating plant accepts items up to 4000 mm long by 12000 heights by 700mm deep and bigger sizes could be accommodated.
+         This plant has a seven stage pre-treatment system. " </i></p>
+    
+         
+    <br>
+         <h5><i>The six stage pre-treatment process consists of the following :</i></h5>
+    <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-card">
+          <img src="https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8Y2xlYW5pbmd8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" height="145" alt="John" style="width:100%">
+          <div class="w3-container">
+            <h3 ><b style="font-size: 60%; color: #00acc1;"> Degreasing for materials </b></h3>
+            <br>
+            <p>It is very important to prepare the metal object for further procedures by removing any dirt, oil, welding scales and more
+            </p>
+            <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-card">
+          <img src="https://c4.wallpaperflare.com/wallpaper/597/160/849/colorful-stripes-rainbow-vertical-wallpaper-preview.jpg" alt="Jane" style="width:100%">
+          <div class="w3-container">
+            <h3 ><b style="font-size: 60%;color: #00acc1;">  Cold running water rinse </b></h3>
+            <br>
+            <p>Cold water rinsing is used to stop chemical reactions in later stages.</p>
+            <br>
+            <br>
+            <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-card">
+          <img src="https://c4.wallpaperflare.com/wallpaper/597/160/849/colorful-stripes-rainbow-vertical-wallpaper-preview.jpg" alt="Mike" style="width:100%">
+          <div class="w3-container">
+            <h3 ><b style="font-size: 60%;color: #00acc1;">  Special Degreasing  </b></h3>
+            <br>
+            <!--p class="w3-opacity">Web Designer</p-->
+            <p>Special degreasing is used for aluminium and galvanised steel including removal of rust.</p>
+            <br>
+        
+
+            <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+          </div>
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-card">
+          <img src="data:image/jpeg;base64,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" alt="Dan" style="width:100%">
+          <div class="w3-container">
+            <h3 ><b style="font-size: 60%;color: #00acc1;"> Pre-seal treatment</b></h3>
+            <br>
+            <p>After the chemical pretreatment process is complete,A mechanical pretreatment such as sand or shot blasting can be used. </p>
+            <br>
+            <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-envelope"></i> Contact</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <div class="header">
+        <h1><b>WHY US &nbsp; ?</b></h1>
+        <h3>Reliable, Cost efficient </h3>
+    
+        <p>We have decades of knowledge in the construction field and our aim is to deliver the best service to your project.
+            </p>
+      </div>
+      <div class="row1-container">
+        <div class="box box-down cyan">
+          <h2>Efficient</h2>
+          <p>We have systems in place to track the progress of any order that is currently in our possession at any time.
+        </p>
+        <img src="https://assets.codepen.io/2301174/icon-team-builder.svg" alt="">
+        </div>
+    
+        <div class="box red">
+          <h2>Quality</h2>
+          <p>With our stringent quality checks in place you can be assured that your product will be of the best standard</p>
+          
+          <img src="https://assets.codepen.io/2301174/icon-supervisor.svg" alt="">
+        </div>
+    
+        <div class="box box-down blue">
+          <h2>Reliable</h2>
+          <p>We plan our work schedule so that we can have your orders ready when we promise to complete them.</p>
+          <img src="https://assets.codepen.io/2301174/icon-karma.svg" alt="">
+          
+        </div>
+      </div>
+      <div class="row2-container">
+        <div class="box orange">
+          <h2>24hr turn around</h2>
+          <p>Due to our long opening times including a night shift, efficient staff and systems we offer a
+               2/3 day turn round on most jobs and can even provide a 24hr service.</p>
+               <img src="https://assets.codepen.io/2301174/icon-calculator.svg" alt="">
+          
+        </div>
+      </div>
+      <div class="w3-container w3-row w3-center w3-dark-grey w3-padding-64">
+        <div class="w3-quarter">
+          <span class="w3-xxlarge">14+</span>
+          <br>Partners
+        </div>
+        <div class="w3-quarter">
+          <span class="w3-xxlarge">55+</span>
+          <br>Projects Done
+        </div>
+        <div class="w3-quarter">
+          <span class="w3-xxlarge">89+</span>
+          <br>Happy Clients
+        </div>
+        <div class="w3-quarter">
+          <span class="w3-xxlarge">150+</span>
+          <br>Meetings
+        </div>
+      </div>
+      
+      
+     
+        
+    
+<br>
+<br>
+<br>
+
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href="home.component.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+
+  
+    <!-- footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-xs-12">
+                    <div class="second">
+                        <h4>Other Services</h4>
+                        <ul>
+                            <li><a href="#">SSF CONSTRUCTION</a></li>
+                            <li><a href="#">SSF FIBRICATION</a></li>
+                            <li><a href="#">SSF Shutters & Shop Fronts</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="second">
+                        <h4> Navigate</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Divisions</a></li>
+                            <li><a href="#">Facilities</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-xs-12">
+                    <div class="third">
+                        <h4> Contact</h4>
+                        <ul>
+                            <li>SSF Powder Coating </li>
+
+
+                            <li><i class="far fa-envelope"></i> sales@ssf-group.co.uk</li>
+
+
+                          <li><i class="fas fa-map-marker-alt"></i> Unit 3,
+                            The Old Foundry,
+                            Ash Street,
+                            Bilston,
+                            West Midlands,
+                            WV14 8UL </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="line"></div>
+                    <div class="second2">
+                        <a href="https://codepen.io/AndreeaBunget" target="_blank"> <i class="fab fa-codepen fa-2x margin"></i></a>
+                        <a href="https://github.com/WebDeveloperCodeRep" target="_blank"> <i class="fab fa-github fa-2x margin"></i></a>
+                        <a href="https://www.linkedin.com/in/andreea-mihaela-bunget-a4248812b/" target="_blank"> <i class="fab fa-linkedin fa-2x margin"></i></a>
+                        <a href="https://www.youtube.com/channel/UCX674BUbomzBCakbb75lhfA?view_as=subscriber" target="_blank"><i class="fab fa-youtube fa-2x margin" ></i></a>
+
+                    </div>
+
+                </div>
+            </div>
+            </div>
+            
+    </div>
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+
