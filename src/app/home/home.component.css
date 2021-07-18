@@ -1,11 +1,13 @@
 /*code for slider starts*/
 
 #slider .carousel-item {
-    height: 920px;
+    height: 580px;
   }
   
   .carousel-caption {
-    font-size: 18px;
+    
+    font-size: 600px;
+    color: cornsilk;
   }
   
   .carousel-item>img {
@@ -16,7 +18,123 @@
       width: 800px;
       margin: 0 auto;
   }
-/*code for slider ends*/
+/*code for slider endsneww*/
+
+.wrapper {
+  height: 100vh;
+  /*This part is important for centering*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.typing-demo {
+  width: 22ch;
+  animation: typing 8s steps(28), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  10% {
+    border-color: transparent
+  }
+}
+
+/*code for new image check*/
+
+/*code for new image end shere */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+	background-color: #111;
+}
+
+.title11 {
+	font-family: "Montserrat";
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	letter-spacing: 1px;
+}
+
+h1 {
+	background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 80px;
+	line-height: .75;
+	margin: 10px 0;
+}
+/* styling my button */
+
+.white-mode {
+	text-decoration: none;
+	padding: 7px 10px;
+	background-color: #122;
+	border-radius: 3px;
+	color: #FFF;
+	transition: .35s ease-in-out;
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	font-family: "Montserrat";
+}
+
+.white-mode:hover {
+	background-color: #FFF;
+	color: #122;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   
@@ -307,7 +425,7 @@ h2 {
 
 
 
-
+/*CODE FOR FOOTER*/
 
 * {
   margin: 0px;
@@ -749,7 +867,7 @@ ideo::-webkit-media-controls {
 
 
 
-
+/*code for text transitiona*/
 
 
 

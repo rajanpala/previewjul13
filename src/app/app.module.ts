@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { FlexLayoutModule } from '@angular/flex-layout';
+
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
@@ -9,6 +11,7 @@ import { SpecialitiesComponent } from './specialities/specialities.component';
 import {RequestComponent} from './request/request.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { ContactComponent } from './contact/contact.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -19,9 +22,11 @@ import { ContactComponent } from './contact/contact.component';
     SpecialitiesComponent,
     GalleryComponent,
     ContactComponent,
+    AboutComponent,
   ],
   imports: [
     BrowserModule,
+    FlexLayoutModule,
     RouterModule.forRoot([
       {path: 'home', component: HomeComponent},
       {path: 'facilities', component: FacilitiesComponent},
@@ -29,6 +34,7 @@ import { ContactComponent } from './contact/contact.component';
       {path:'request',component:RequestComponent},
       {path:'gallery',component:GalleryComponent},
       {path:'contactUs',component:ContactComponent},
+      {path:'about',component:AboutComponent},
       {path: '', redirectTo: '/home', pathMatch: 'full'},
     ]),
   ],
